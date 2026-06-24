@@ -24,8 +24,8 @@ const formSchema = z.object({
       (file) => !file || file.size <= 10 * 1024 * 1024,
       "Cover image (max 10MB)"
     ),
-  title: z.string().min(1, "Title is required"),
-  author: z.string().min(1, "Author is required"),
+  title: z.string().trim().min(1, "Title is required"),
+  author: z.string().trim().min(1, "Author is required"),
   voice: z.string().min(1, "Please select a voice"),
 })
 
