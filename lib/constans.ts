@@ -44,6 +44,46 @@ export const sampleBooks = [
         coverURL: 'https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg',
         coverColor: '#f8f4e9',
     },
+    {
+        _id: '6',
+        title: 'How to Win Friends and Influence People',
+        author: 'Dale Carnegie',
+        slug: 'how-to-win-friends-and-influence-people',
+        coverURL: 'https://covers.openlibrary.org/b/isbn/9780671027032-L.jpg',
+        coverColor: '#f8f4e9',
+    },
+    {
+        _id: '7',
+        title: 'The Power of Habit',
+        author: 'Charles Duhigg',
+        slug: 'the-power-of-habit',
+        coverURL: 'https://covers.openlibrary.org/b/isbn/9781400069286-L.jpg',
+        coverColor: '#f8f4e9',
+    },
+    {
+        _id: '8',
+        title: 'Atomic Habits',
+        author: 'James Clear',
+        slug: 'atomic-habits',
+        coverURL: 'https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg',
+        coverColor: '#f8f4e9',
+    },
+    {
+        _id: '9',
+        title: 'The Courage to Be Disliked',
+        author: 'Fumitake Koga & Ichiro Kishimi',
+        slug: 'the-courage-to-be-disliked',
+        coverURL: 'https://covers.openlibrary.org/b/isbn/9781501197274-L.jpg',
+        coverColor: '#f8f4e9',
+    },
+    {
+        _id: '10',
+        title: '1984',
+        author: 'George Orwell',
+        slug: '1984',
+        coverURL: 'https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg',
+        coverColor: '#f8f4e9',
+    },
 ];
 
 // File validation helpers
